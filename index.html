@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Тестовое задание</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navbar -->
+      <div>
+        <nav class="navbar_main">
+          <div class="navbar_main_left">
+            HTML/CSS/JS Test
+            <img src="./image/close.svg" class="main_left_span" alt="close" />
+          </div>
+          <div class="navbar_main_right">
+            <div class="navbar_main_right-div">
+              <span class="div-span">_</span>
+            </div>
+            <div class="navbar_main_right-div">
+              <img src="./image/window.svg" alt="window" />
+            </div>
+            <div class="navbar_main_right-div">
+              <img src="./image/close.svg" class="div-img" alt="close" />
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- Navbar -->
+      <div class="container line"></div>
+      <!-- header -->
+      <header>
+        <div class="header_main">
+          <div class="header_main-left">
+            <img
+              class="header_main_left-img"
+              src="./image/search.svg"
+              alt="search"
+            />
+            <input
+              class="header_main-left_inp"
+              type="text"
+              placeholder="Search instrument..."
+              id="input"
+            />
+            <img
+              class="header_main_left-img image-search"
+              src="./image/close.svg"
+              alt="close"
+              id="clean"
+            />
+          </div>
+          <div class="header_main-right">
+            <span class="right_usd">USD</span>
+            <span class="right_dollar"> 120.18</span
+            ><span class="right_line">|</span>
+            <img src="./image/up.svg" alt="up" />
+            <span class="right_procent">3.29%</span>
+          </div>
+        </div>
+        <div class="wrapper">
+          <div class="wrapper_block">
+            <p class="wrapper_block-text">Day Range</p>
+            <div class="wrapper_block-right">
+              <p class="wrapper_block-num">227.13 - 233.37</p>
+              <div class="block_position">
+                <div class="block_position-1"></div>
+                <div class="block_position-2"></div>
+                <div class="block_position-3"></div>
+              </div>
+            </div>
+          </div>
+          <span class="line_block">|</span>
+          <div class="wrapper_block">
+            <p class="wrapper_block-text">52 Week Range</p>
+            <div class="wrapper_block-right">
+              <p class="wrapper_block-num">127.13 - 233.37</p>
+              <div class="block_position">
+                <div class="block_position-1"></div>
+                <div class="block_position-2"></div>
+                <div class="block_position-4"></div>
+              </div>
+            </div>
+          </div>
+          <span class="line_block">|</span>
+          <div class="wrapper_block">
+            <p class="wrapper_block-text">Market Cap</p>
+            <p class="wrapper_block-num">2.04T USD</p>
+          </div>
+          <span class="line_block">|</span>
+          <div class="wrapper_block">
+            <p class="wrapper_block-text">Beta</p>
+            <p class="wrapper_block-num">1.25</p>
+          </div>
+        </div>
+      </header>
+      <!-- header -->
+      <div class="container_into">
+        <section>
+          <div class="blog_filter" id="myFilter">
+            <h3 class="blog_filter-text filter active" id="general">General</h3>
+            <h3 class="blog_filter-text filter" id="profile">Profile</h3>
+            <h3 class="blog_filter-text filter" id="statistics">Statistics</h3>
+          </div>
+          <div class="blog_line"></div>
+          <div class="blogfilter">
+            <p class="blog_filter_change" id="text"></p>
+          </div>
+          <div>
+            <button class="blog_btn" id="btnShow"></button>
+          </div>
+          <div class="line_border"></div>
+        </section>
+
+        <section>
+          <div class="graphic">
+            <canvas
+              id="myChart"
+              aria-label="CHART"
+              class="chart_graphic"
+            ></canvas>
+            <div class="graphic_general">
+              <h2 class="graphic_general-text">GENERAL INFORMATION</h2>
+              <div class="graphic_general-blocks">
+                <p class="graphic_general-blocks_title">TYPE</p>
+                <p class="graphic_general-blocks_text">Common Stock</p>
+              </div>
+              <div class="graphic_general-blocks">
+                <p class="graphic_general-blocks_title">EXCHANGE</p>
+                <p class="graphic_general-blocks_text">NASDAQ</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="twographic">
+          <div class="twographic_block-left">
+            <div class="twographic_block_left-up">
+              <h2 class="twographic_block_left-up-title">
+                ANALYTISTS RECOMMENDATIONS
+              </h2>
+              <div class="twographic_block_left-up-wrapper">
+                <div>
+                  <div class="twographic_block_left-up-block">
+                    <img
+                      class="twographic_block_left-up-img"
+                      src="./image/speed.svg"
+                      alt="speed"
+                    />
+                    <img
+                      class="twographic_block_left-up-img-2"
+                      src="./image/roude.svg"
+                      alt="roude"
+                    />
+                    <span class="twographic_block_left-up-img-dot"></span>
+                    <span class="twographic_block_left-up-img-zero"></span>
+                  </div>
+                </div>
+                <div class="twographic_block_left-up-2">
+                  <div class="twographic_block_left-up-2_main">
+                    <p class="twographic_block_left-up-2_main-line"></p>
+                    <p class="twographic_block_left-up-2_main-text">
+                      Strong Buy
+                    </p>
+                  </div>
+                  <div class="twographic_block_left-up-2_main">
+                    <p
+                      class="twographic_block_left-up-2_main-line dark_green"
+                    ></p>
+                    <p class="twographic_block_left-up-2_main-text">Buy</p>
+                  </div>
+                  <div class="twographic_block_left-up-2_main">
+                    <p class="twographic_block_left-up-2_main-line hold"></p>
+                    <p class="twographic_block_left-up-2_main-text">Hold</p>
+                  </div>
+                  <div class="twographic_block_left-up-2_main">
+                    <p class="twographic_block_left-up-2_main-line sell"></p>
+                    <p class="twographic_block_left-up-2_main-text">Sell</p>
+                  </div>
+                  <div class="twographic_block_left-up-2_main">
+                    <p
+                      class="twographic_block_left-up-2_main-line strong_sell"
+                    ></p>
+                    <p class="twographic_block_left-up-2_main-text">
+                      Strong Sell
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="twographic_block_left-down">
+              <h2 class="twographic_block-bottom_block_title">
+                NUMBER OF ANALYSTS
+              </h2>
+              <div class="twographic_block_left-down_main">
+                <div class="twographic_block-left-down_main-wrapper">
+                  <img src="./image/1.svg" alt="one" />
+                  <span class="twographic_block-left-down_main-names"
+                    >Jul 20</span
+                  >
+                </div>
+                <div class="twographic_block-left-down_main-wrapper">
+                  <img src="./image/2.svg" alt="two" />
+                  <span class="twographic_block-left-down_main-names"
+                    >Aug 20</span
+                  >
+                </div>
+                <div class="twographic_block-left-down_main-wrapper">
+                  <img src="./image/3.svg" alt="three" />
+                  <span class="twographic_block-left-down_main-names"
+                    >Sep 20</span
+                  >
+                </div>
+                <div class="twographic_block-left-down_main-wrapper">
+                  <img src="./image/4.svg" alt="four" />
+                  <span class="twographic_block-left-down_main-names"
+                    >Oct 20</span
+                  >
+                </div>
+                <div class="twographic_block-left-down_main-wrapper">
+                  <img src="./image/5.svg" alt="five" />
+                  <span class="twographic_block-left-down_main-names"
+                    >Nov 20</span
+                  >
+                </div>
+                <div class="twographic_block-left-down_main-wrapper">
+                  <img src="./image/6.svg" alt="six" />
+                  <span class="twographic_block-left-down_main-names"
+                    >Dec 20</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="twographic_block-right">
+            <h2 class="graphic_general-text only_text">PEERS ANALYSIS</h2>
+            <div class="line"></div>
+            <div class="twographic_block-right_name">
+              <p class="twographic_block-right_name-text">NAME</p>
+              <div class="twographic_block-right_name-2">
+                <p class="twographic_block-right_name-text">PRICE</p>
+                <p class="twographic_block-right_name-text graphic_text">
+                  DAILY CHANGE %
+                </p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="container_block" id="containerBlock">
+              <div class="twographic_block-right_block filters actives">
+                <p class="twographic_block-right_block-1">APPL</p>
+                <p class="twographic_block-right_block-2">Apple Inc</p>
+                <p class="twographic_block-right_block-3">120.03</p>
+                <p class="twographic_block-right_block-4">0.04%</p>
+              </div>
+              <div class="liners"></div>
+              <div class="twographic_block-right_block filters">
+                <p class="twographic_block-right_block-1">CAJ</p>
+                <p class="twographic_block-right_block-2">Canon Inc</p>
+                <p class="twographic_block-right_block-3">120.03</p>
+                <p class="twographic_block-right_block-4">0.04%</p>
+              </div>
+              <div class="liners"></div>
+              <div class="twographic_block-right_block filters">
+                <p class="twographic_block-right_block-1">DELL</p>
+                <p class="twographic_block-right_block-2">Dell Tehnologi...</p>
+                <p class="twographic_block-right_block-3">120.03</p>
+                <p class="twographic_block-right_block-4">0.04%</p>
+              </div>
+              <div class="liners"></div>
+              <div class="twographic_block-right_block filters">
+                <p class="twographic_block-right_block-1">HPQ</p>
+                <p class="twographic_block-right_block-2">HP Inc</p>
+                <p class="twographic_block-right_block-3">120.03</p>
+                <p class="twographic_block-right_block-4 red">0.04%</p>
+              </div>
+              <div class="liners"></div>
+              <div class="twographic_block-right_block filters">
+                <p class="twographic_block-right_block-1">HPE</p>
+                <p class="twographic_block-right_block-2">Dell Tehnologi...</p>
+                <p class="twographic_block-right_block-3">120.03</p>
+                <p class="twographic_block-right_block-4">0.04%</p>
+              </div>
+              <div class="liners"></div>
+              <div class="twographic_block-right_block filters">
+                <p class="twographic_block-right_block-1">LOGI</p>
+                <p class="twographic_block-right_block-2">Dell Tehnologi...</p>
+                <p class="twographic_block-right_block-3">120.03</p>
+                <p class="twographic_block-right_block-4 red">0.04%</p>
+              </div>
+              <div class="liners"></div>
+              <div class="twographic_block-right_block filters">
+                <p class="twographic_block-right_block-1">STX</p>
+                <p class="twographic_block-right_block-2">Apple Inc</p>
+                <p class="twographic_block-right_block-3">120.03</p>
+                <p class="twographic_block-right_block-4">0.04%</p>
+              </div>
+              <div class="liners"></div>
+              <div class="twographic_block-right_block filters">
+                <p class="twographic_block-right_block-1">WDC</p>
+                <p class="twographic_block-right_block-2">Canon Inc</p>
+                <p class="twographic_block-right_block-3">120.03</p>
+                <p class="twographic_block-right_block-4">0.04%</p>
+              </div>
+              <div class="liners"></div>
+              <div class="twographic_block-right_block filters">
+                <p class="twographic_block-right_block-1">SNE</p>
+                <p class="twographic_block-right_block-2">Dell Tehnologi...</p>
+                <p class="twographic_block-right_block-3">120.03</p>
+                <p class="twographic_block-right_block-4">0.04%</p>
+              </div>
+              <div class="liners"></div>
+              <div class="twographic_block-right_block filters">
+                <p class="twographic_block-right_block-1">DIS</p>
+                <p class="twographic_block-right_block-2">Canon Inc</p>
+                <p class="twographic_block-right_block-3">120.03</p>
+                <p class="twographic_block-right_block-4">0.04%</p>
+              </div>
+            </div>
+          </div>
+          <div class="twographic_block-bottom">
+            <div class="twographic_block-bottom_block">
+              <h2 class="twographic_block-bottom_block_title">PRICE TARGET</h2>
+              <div class="twographic_block-bottom_block-container">
+                <img
+                  class="twographic_block-bottom_block-container-img"
+                  src="./image/lines.svg"
+                  alt="lines"
+                />
+                <div class="twographic_block-bottom_block-container-1">
+                  Avg 154.7807058
+                </div>
+                <div class="twographic_block-bottom_block-container-2">
+                  Median 160.140000000000
+                </div>
+                <div class="twographic_block-bottom_block-container-3">
+                  <span class="span_orange"></span>
+                  <p>Current 120.20</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

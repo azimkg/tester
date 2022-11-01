@@ -1,0 +1,6 @@
+<svg width="27" height="130" viewBox="0 0 27 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 115H27V126C27 128.209 25.2091 130 23 130H4C1.79086 130 0 128.209 0 126V115Z" fill="#F6544C" fill-opacity="0.5"/>
+<path d="M0 83H27V115H0V83Z" fill="#323438"/>
+<path d="M0 51H27V83H0V51Z" fill="#15E3B5" fill-opacity="0.5"/>
+<path d="M0 4C0 1.79086 1.79086 0 4 0H23C25.2091 0 27 1.79086 27 4V51H0V4Z" fill="#15E3B5"/>
+</svg>
